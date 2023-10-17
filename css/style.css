@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.nav{
+    background-color: red;
+    height: 70px;
+    width: 100%;
+}
+
+.photo{
+    background-color: aquamarine;
+    width: 300px;
+    height: 250px;
+    margin-left: 800px;
+}
+
+.presentation{
+    background-color: aqua;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 200px;
+    height: 300px;
+}
+
